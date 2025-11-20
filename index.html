@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Nikitha Etikala — UX/UI &amp; Graphic Designer</title>
+<meta content="Portfolio of Nikitha Etikala — UX/UI Designer, Graphic Designer" name="description"/>
+<link href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;🎨&lt;/text&gt;&lt;/svg&gt;" rel="icon"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&amp;display=swap" rel="stylesheet"/>
+<style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --muted:#9aa4b2; --accent:#7c3aed;
+      --glass: rgba(255,255,255,0.04);
+      color-scheme: dark;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%; margin:0; font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial; background:linear-gradient(180deg,#071029 0%, #081225 100%); color:#e6eef8}
+    .container{max-width:1100px; margin:48px auto; padding:24px;}
+    header{display:flex; align-items:center; justify-content:space-between; gap:16px}
+    .brand{display:flex; gap:16px; align-items:center}
+    .avatar{width:62px; height:62px; border-radius:12px; background:linear-gradient(135deg,#7c3aed,#06b6d4); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:26px; color:white}
+    h1{font-size:28px; margin:0}
+    p.lead{margin:6px 0 0; color:var(--muted); font-size:15px}
+    nav a{color:var(--muted); text-decoration:none; margin-left:16px; font-weight:600; font-size:14px}
+    .hero{display:grid; grid-template-columns:1fr 360px; gap:28px; margin-top:28px; align-items:start}
+    .card{background:var(--card); border-radius:14px; padding:20px; box-shadow:0 6px 18px rgba(2,6,23,0.6); border:1px solid rgba(255,255,255,0.03)}
+    .intro h2{margin:0 0 8px}
+    .cta{display:flex; gap:12px; margin-top:16px}
+    .btn{background:linear-gradient(90deg,var(--accent),#06b6d4); color:white; padding:10px 14px; border-radius:10px; text-decoration:none; font-weight:600}
+    .btn.ghost{background:transparent; border:1px solid rgba(255,255,255,0.06); color:var(--muted)}
+    .profile-meta{font-size:14px; color:var(--muted); margin-top:10px}
+    .skills{display:flex; gap:8px; flex-wrap:wrap; margin-top:12px}
+    .pill{background:var(--glass); padding:8px 10px; border-radius:999px; font-size:13px; color:var(--muted)}
+    .projects-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:20px}
+    .proj{padding:14px; border-radius:12px; background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); min-height:140px; display:flex; flex-direction:column; justify-content:space-between}
+    .proj h3{margin:0 0 6px}
+    .proj p{margin:0; color:var(--muted); font-size:13px}
+    footer{margin-top:36px; text-align:center; color:var(--muted); font-size:13px}
+    /* responsive */
+    @media (max-width:980px){ .hero{grid-template-columns:1fr} .projects-grid{grid-template-columns:repeat(2,1fr)} }
+    @media (max-width:640px){ .projects-grid{grid-template-columns:1fr} header{flex-direction:column; align-items:flex-start} .brand{gap:12px}}
+    /* subtle hover */
+    .proj:hover{transform:translateY(-6px); transition:all .3s ease}
+    .btn:hover{transform:translateY(-3px); transition:all .18s ease}
+    .project-thumb{height:88px; border-radius:8px; background:linear-gradient(90deg,#0b1220,#071029); display:flex; align-items:center; justify-content:center; color:var(--muted); font-weight:600; letter-spacing:0.6px}
+    .contact-grid{display:grid; grid-template-columns:1fr 1fr; gap:12px}
+    .field{display:flex; flex-direction:column; gap:6px}
+    input,textarea{background:transparent; border:1px solid rgba(255,255,255,0.04); padding:10px 12px; border-radius:8px; color:inherit; outline:none}
+    textarea{min-height:110px; resize:vertical}
+    .small{font-size:13px; color:var(--muted)}
+  </style>
+</head>
+<body>
+<div class="container">
+<header>
+<div class="brand">
+<div class="avatar">NE</div>
+<div>
+<h1>Nikitha Etikala</h1>
+<p class="lead">UX/UI &amp; Graphic Designer — creating clean, user-centered digital products</p>
+</div>
+</div>
+<nav>
+<a href="#projects">Projects</a>
+<a href="#case-studies">Case Studies</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+<section class="hero">
+<div class="card intro">
+<h2>Hi — I'm Nikitha, a UX/UI &amp; Graphic Designer</h2>
+<p class="small">I design usable, accessible interfaces and visual identities. I enjoy turning complex problems into intuitive experiences through research, iteration and pixel-perfect UI.</p>
+<div class="profile-meta">
+<div>Location: Hyderabad, India • <a class="small" href="mailto:nikithaetikala08@gmail.com" style="color:var(--muted);">nikithaetikala08@gmail.com</a></div>
+<div style="margin-top:6px">Available for internships and junior designer roles</div>
+</div>
+<div class="skills">
+<span class="pill">Figma</span><span class="pill">Adobe XD</span><span class="pill">Illustrator</span><span class="pill">Photoshop</span>
+<span class="pill">Wireframing</span><span class="pill">User Research</span><span class="pill">Prototyping</span>
+</div>
+<div class="cta">
+<a class="btn" href="#projects">See Projects</a>
+<a class="btn ghost" href="mailto:nikithaetikala08@gmail.com?subject=Portfolio%20Enquiry">Contact Me</a>
+</div>
+</div>
+<aside>
+<div class="card">
+<h3 style="margin:0">Highlights</h3>
+<p class="small" style="margin-top:8px">UI designs for student projects, branding mockups, and a clean design system for an online learning platform.</p>
+<div style="margin-top:12px">
+<strong>Resume</strong>
+<p class="small">Download the resume or view case studies.</p>
+<div style="display:flex; gap:8px; margin-top:10px">
+<a class="btn" download="True" href="NIKITHA_ETIKALA_UXUI%20%26%20GRAPHIC_DESIGNER.pdf">Download PDF</a>
+<a class="btn ghost" href="#case-studies">View Case Studies</a>
+</div>
+</div>
+<div style="margin-top:14px">
+<strong>Contact</strong>
+<p class="small">Available on LinkedIn — <a href="https://www.linkedin.com/in/nikitha-etikala-0531s" style="color:var(--muted)" target="_blank">LinkedIn</a></p>
+</div>
+</div>
+</aside>
+</section>
+<section id="projects" style="margin-top:26px">
+<h2 style="margin:0 0 12px">Selected Projects</h2>
+<div class="projects-grid">
+<div class="proj card">
+<div>
+<div class="project-thumb">Smart Attendance App — Mobile UI</div>
+<h3>Smart Attendance App</h3>
+<p>End-to-end mobile UI: user flows, wireframes, and high-fidelity screens with accessibility in mind.</p>
+</div>
+<div style="display:flex; justify-content:space-between; align-items:center; margin-top:10px">
+<span class="pill">Figma</span><span class="small">Jan 2025</span>
+</div>
+</div>
+<div class="proj card">
+<div>
+<div class="project-thumb">Online Learning Platform — UX Case Study</div>
+<h3>Learning Platform Redesign</h3>
+<p>Research-led redesign: dashboards, course pages, and a reusable design system.</p>
+</div>
+<div style="display:flex; justify-content:space-between; align-items:center; margin-top:10px">
+<span class="pill">Figma</span><span class="small">Mar 2025</span>
+</div>
+</div>
+<div class="proj card">
+<div>
+<div class="project-thumb">Branding — Aura Cosmetics</div>
+<h3>Aura Cosmetics — Visual Identity</h3>
+<p>Logo, packaging mockups and social templates with typography and color rules.</p>
+</div>
+<div style="display:flex; justify-content:space-between; align-items:center; margin-top:10px">
+<span class="pill">Illustrator</span><span class="small">Jul 2025</span>
+</div>
+</div>
+</div>
+</section>
+<section id="case-studies" style="margin-top:28px">
+<h2 style="margin:0 0 12px">Case Studies</h2>
+<div class="card" style="padding:18px">
+<h3>Smart Attendance App — UX Case Study</h3>
+<p class="small">Summary: Designed flows, wireframes and a high-fidelity prototype focusing on quick check-ins and clear admin dashboards. Tools: Figma, FigJam.</p>
+<ul class="small" style="color:var(--muted)">
+<li>Problem: manual attendance &amp; error-prone tracking</li>
+<li>Solution: quick QR &amp; biometric check-ins, easy reporting</li>
+<li>Outcome: Prototype validated with peer testing; improved task completion rate in prototype tasks.</li>
+</ul>
+</div>
+</section>
+<section id="contact" style="margin-top:28px">
+<h2 style="margin:0 0 12px">Get in touch</h2>
+<div class="card" style="padding:18px">
+<form action="mailto:nikithaetikala08@gmail.com" enctype="text/plain" method="get">
+<div class="contact-grid">
+<div class="field">
+<label class="small">Your name</label>
+<input name="name" placeholder="Your name" type="text"/>
+</div>
+<div class="field">
+<label class="small">Your email</label>
+<input name="email" placeholder="you@email.com" type="email"/>
+</div>
+</div>
+<div class="field" style="margin-top:12px">
+<label class="small">Message</label>
+<textarea name="message" placeholder="Hi Nikitha, I would like to discuss..."></textarea>
+</div>
+<div style="margin-top:12px; display:flex; gap:8px">
+<button class="btn" type="submit">Send Email</button>
+<a class="btn ghost" href="https://www.linkedin.com/in/nikitha-etikala-0531s" target="_blank">LinkedIn</a>
+</div>
+</form>
+</div>
+</section>
+<footer>
+      Built with ❤️ • UX/UI &amp; Graphic Designer — Nikitha Etikala
+    </footer>
+</div>
+</body>
+</html>
